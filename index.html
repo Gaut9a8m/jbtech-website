@@ -163,10 +163,24 @@
       visibility: visible;
   }
 
-    .contact-stripe {
-    display: none;
-}
+ .contact-stripe {
+  display: block;
+    position: fixed;
+    width: 6%;
+    bottom: 0;
+    text-align: center;
+    z-index: 999;
+    padding: 10px;
+  background-color: #f4511e;
+    }
+    .contact-stripe a:hover{
+      color:#fff;
 
+    }
+    .box{
+ 
+  color: #fff;
+}
 
 
 
@@ -190,7 +204,7 @@
       -webkit-transform: translateY(0%);
     }
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 900px) {
     .col-sm-4 {
       text-align: center;
       margin: 25px 0;
@@ -210,8 +224,28 @@ width: 20% !important;
         width: 100%;
         margin-bottom: 35px;
     }
+
+ .contact-stripe {
+  display: block;
+    position: fixed;
+    width: 9%;
+    bottom: 0;
+    text-align: center;
+    z-index: 999;
+    padding: 10px;
+  background-color: #f4511e;
+    }
+    .contact-stripe a:hover{
+      color:#fff;
+
+    }
+    .box{
+ 
+  color: #fff;
+}
+
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 600px) {
     .logo {
         font-size: 150px;
     }
@@ -261,6 +295,7 @@ width: 20% !important;
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#services">SERVICES</a></li>
         <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="blog.html">BLOG</a></li>
        <!-- <li><a href="#pricing">PRICING</a></li>-->
         <li><a href="#contact">CONTACT</a></li>
       </ul>
@@ -291,12 +326,13 @@ width: 20% !important;
       <h2>About J&B</h2><br>
       <h4>We specialize in both product & services, we believe in learning and improving day by day, we in J&B are looking forward to solve any unsolved issues with our great expertise in technologies </h4><br>
      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <br><button class="btn btn-default btn-lg">Get in Touch</button>-->
+      <br><button class="btn btn-default btn-lg">Get in Touch</button>--> 
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-signal logo"></span>
     </div>
   </div>
+  
 </div>
 <!--
 <div class="container-fluid bg-grey">
@@ -322,17 +358,17 @@ width: 20% !important;
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-file logo-small"></span>
       <h4>WEBSITE DEVELOPMENT</h4>
-      <p>The whole stack in one, Flexible in any technology</p>
+      <p>We can create pixel perfect and responsive web design for our client’s business website, so they can get more customers and generate leads. </p>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-phone logo-small"></span>
       <h4>APP DEVELOPMENT</h4>
-      <p>In various development plateforms, Flexible in any technology</p>
+      <p>We have expertise in multifarious games & apps development that will be helpful in propelling the business in online marketplace. </p>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-picture logo-small"></span>
       <h4>GRAPHIC DESIGNING</h4>
-      <p>In various designing tools</p>
+      <p>Our designing team helps you enhance your design that will bring professionalism in the business image & optimize marketing.</p>
     </div>
   </div>
   <br><br>
@@ -340,12 +376,12 @@ width: 20% !important;
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-bullhorn logo-small"></span>
       <h4>DIGITAL MARKETING</h4>
-      <p>SEO, Social Marketings and in various domains</p>
+      <p>We have a team of digital marketing experts, who devise proper strategy to optimize the ranking of the website in the search engine result page. </p>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-signal logo-small"></span>
       <h4>DATA MANIPULATION</h4>
-      <p>SAS, R, SQL and in various plateforms</p>
+      <p>Look no further for innovative, highly developed and sophisticated data management and programming skills. we have it all. We can take any project or campaign and create a working solution.</p>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-wrench logo-small"></span>
@@ -383,7 +419,7 @@ width: 20% !important;
     
     <div class="col-sm-4 col-xs-12 col-md-4">
       <div class="thumbnail">
-        <img src="work/med.png" alt="architect website" width="400" height="300">
+        <img src="work/med.png" alt="Pharmacy website" width="400" height="300">
     
       </div>
       <div>
@@ -545,16 +581,6 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
 
 
-
-
-
-
-
-
-
-
-
-
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
@@ -568,10 +594,10 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 
 <div class="contact-stripe" style="">
   <div class="row" style="margin:0px;">
-   <div class="col-xs-6">
+   <div class="col-xs-6 col-md-12">
     <a href="tel:8130435681work/" role="button" class="box"><i class="fa fa-phone fa-2x"></i></a>
    </div>
-   <div class="col-xs-6">
+   <div class="col-xs-6 col-md-12">
     <a href="mailto:jnbtechno@gmail.com" role="button" class="box"><i class="fa fa-envelope fa-2x" ></i></a>
    </div>
   </div>
@@ -615,8 +641,6 @@ $(document).ready(function(){
   });
 })
 
-
-//moveable call and email button
 
 
 </script>
